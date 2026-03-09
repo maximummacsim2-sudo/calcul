@@ -10,6 +10,12 @@ def umn():
 
 function = input("Что вам нкжно сделать из выше перечисленного?(Напишите число) - ")
 
+def delen():
+    num1 = int(input("1 делимое - "))
+    num2 = int(input("2 делитель - "))
+    print(f" Ответ: {num1/num2}")
+
 if function == "1":
     umn()
-
+elif function == "2":
+    delen()
